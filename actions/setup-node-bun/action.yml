@@ -8,7 +8,6 @@ runs:
       uses: actions/setup-node@v3
       with:
         node-version: 'lts/*'
-        cache: yarn
     - name: 🥟 Setup Bun
       uses: oven-sh/setup-bun@v1
       with:
