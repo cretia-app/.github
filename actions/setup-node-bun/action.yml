@@ -16,3 +16,5 @@ runs:
     - name: 📦 Install dependencies
       run: bun install
       shell: bash
+      env:
+        HUSKY: '0'
